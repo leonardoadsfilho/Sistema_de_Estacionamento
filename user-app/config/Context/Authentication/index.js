@@ -11,7 +11,7 @@ const AuthenticationContext = createContext({
 
 export const Authentication = ({children}) => {
 
-    const [isLoading, setIsLoading] = useState(false)
+    const [isLoading, setIsLoading] = useState(true)
     const [isLogged, setIsLogged] = useState(false)
 
     return(

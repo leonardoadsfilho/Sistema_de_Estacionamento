@@ -1,7 +1,7 @@
 import React from "react";
 import { Pressable, StyleSheet, Text } from "react-native";
 
-const Button = ( { title, action, style }) => {
+const Button = ( { title, action, style, icon }) => {
     return (
         <Pressable style={style ? style.button ? style.button : defaultStyle.button : defaultStyle.button} onPress={action}>
             <Text style={style ? style.text ? style.text : defaultStyle.text : defaultStyle.text}>{title}</Text>

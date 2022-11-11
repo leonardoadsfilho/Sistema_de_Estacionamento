@@ -27,7 +27,7 @@ export default function App() {
   }, [])
        
   const fetchData = async (id) => {
-    const res = await fetch(`https://c540-2804-14c-5bb1-4188-29a1-b175-b83b-b8e0.sa.ngrok.io/pish-64141/us-central1/app/api/access/${id}`, {
+    const res = await fetch(`https://a612-2804-14c-5bb1-4188-18c7-a-3d04-f91.sa.ngrok.io/pish-64141/us-central1/app/api/access/${id}`, {
       method: 'get',
       mode: 'cors',
       headers: {

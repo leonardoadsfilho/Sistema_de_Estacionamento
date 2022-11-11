@@ -25,13 +25,19 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "permission": [
-        
+      "permission": [],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO"
       ],
-      "blockedPermissions": ["android.permission.RECORD_AUDIO"]
+      "package": "com.leorecruta01.qrreader"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "588286a0-541b-428a-b056-39736586a8cc"
+      }
     }
   }
 }
